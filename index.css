@@ -1,0 +1,61 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+}
+
+.title{
+    margin-top: 25px;  
+    width: 80%;
+    text-align: center;
+}
+
+.jad{
+  margin-bottom: -5px;
+}
+
+p{
+  margin-bottom: -8px;
+}
+
+.link{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+  }
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: black;
+  }
+
+@media (min-width: 900px) {
+    img{
+        width: 60%;
+    }
+    
+    .title{
+        width: auto;
+    }
+
+}
